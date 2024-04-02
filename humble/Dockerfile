@@ -15,7 +15,8 @@
 # This Dockerfile is based on https://github.com/AtsushiSaito/docker-ubuntu-sweb
 # which is released under the Apache-2.0 license.
 
-FROM ubuntu:jammy-20240227
+FROM nvidia/cuda:12.3.2-devel-ubuntu22.04
+ 
 
 ARG TARGETPLATFORM
 LABEL maintainer="Tiryoh<tiryoh@gmail.com>"
